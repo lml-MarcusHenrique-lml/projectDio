@@ -1,0 +1,10 @@
+import pandas as pd
+
+# Substitua 'seu_arquivo.csv' pelo nome real do seu arquivo
+arquivo_csv = 'dados.csv'
+data = pd.read_csv(arquivo_csv)
+
+# Imprima algumas linhas dos dados para verificar se a leitura está correta
+print(data.head())
+
+# Restante do seu script
